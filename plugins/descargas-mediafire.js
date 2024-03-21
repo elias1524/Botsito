@@ -9,7 +9,7 @@ if (!args[0]) return conn.reply(m.chat, `${lenguajeGB['smsAvisoMG']()}*⚡ 𝙄�
 try {
 const resEX = await mediafiredl(args[0]);
 let caption = `┏━━『 𝐌𝐄𝐃𝐈𝐀𝐅𝐈𝐑𝐄 』━━•\n┃❥ 𝐍𝐨𝐦𝐛𝐫𝐞 :\n┃${resEX.filename}\n┃——————«•»——————\n┃❥ 𝐏𝐞𝐬𝐨 :\n┃${resEX.filesizeH}\n┃——————«•»——————\n┃❥ 𝐓𝐢𝐩𝐨 :\n┃${resEX.ext}\n╰━━━⊰ 𓃠 ${vs} ⊱━━━━•\n\n> ⏳ ᴱˢᵖᵉʳᵉ ᵘⁿ ᵐᵒᵐᵉⁿᵗᵒ ᵉⁿ ˡᵒˢ ᵠᵘᵉ ᵉⁿᵛᶦᵒˢ ˢᵘˢ ᵃʳᶜʰᶦᵛᵒˢ`.trim()
-conn.reply(m.chat, caption, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿', body: 'Super Bot WhatsApp', previewType: 0, thumbnail: img.getRandom(), sourceUrl: redes.getRandom()}}})
+conn.reply(m.chat, caption, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: 'Goku-Black', body: 'Super Bot WhatsApp', previewType: 0, thumbnail: img.getRandom(), sourceUrl: redes.getRandom()}}})
 await conn.sendFile(m.chat, resEX.url, resEX.filename, '', m, null, {mimetype: resEX.ext, asDocument: true});
 handler.limit = 3
 } catch {
