@@ -54,7 +54,7 @@ user.lastcoins = new Date * 1
 }
 handler.help = ['minar2']
 handler.tags = ['Black']
-handler.command = ['minar2', 'miming2', 'mine2', 'minarlolicoins', 'minarcoins', 'minarloli'] 
+handler.command = ['minar2', 'miming2', 'mine2', 'minarBlackcoins', 'minarcoins', 'minarloli'] 
 handler.fail = null
 handler.exp = 0
 handler.register = true
