@@ -95,7 +95,7 @@ let menu = `『 ${wm} 』
 > □ *🔰 Mi estado:* ${typeof user.miestado !== 'string' ? '_#miestado || Estado no asignado_' : '_Me siento ' + user.miestado + '_'}
 > □ *🎖️ Nivel:* ${level}
 > □ *💎 Diamantes:* ${limit}
-> □ *👾 LoliCoins:* ${money}
+> □ *👾 BlackCoins:* ${money}
 > □ *🪙 Tokens:* ${joincount}
 > □ *🧰 Experiencia:* ${exp}
 > □ *⚓ Rango:* ${role}
