@@ -77,9 +77,9 @@ let menu = `『 ${wm} 』
 
 *Hola ${taguser}*
 
-\`□ Creador:\`  Mario
+\`□ Creador:\`  Iván 
 \`□ Numero del creador:\` 
-> ${asistencia}
+> 595992809980
 \`□ Numero del bot ofc:\`
 > ${bot}
 \`□ Tiempos activos :\` ${uptime}
@@ -87,7 +87,7 @@ let menu = `『 ${wm} 』
 \`□ Registrado:\` ${rtotalreg} de ${totalreg} ${(conn.user.jid == global.conn.user.jid ? '' : `\n□ *Soy un sub bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}
     
 \`□ COMO INSTALAR EL BOT\`
-https://youtu.be/O_j2q5xCg3A
+'
 
 \`◉ INFO DEL USUARIO\`
 > □ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
