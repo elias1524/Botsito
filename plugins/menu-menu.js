@@ -80,7 +80,7 @@ let menu = `『 ${wm} 』
 \`□ Creador:\`  Iván 
 \`□ Numero del creador:\` 
 > Wa.me/+595992809980
-\`□ Numero del bot ofc:\
+\`□ Numero del bot ofc:\` 
 > Wa.me/+1(505)814-5540
 \`□ Tiempos activos :\` ${uptime}
 \`□ Usuarios:\` ${Object.keys(global.db.data.users).length}
