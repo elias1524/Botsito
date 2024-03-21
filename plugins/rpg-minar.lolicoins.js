@@ -53,7 +53,7 @@ await conn.sendMessage(m.chat, {text: gat, contextInfo: {forwardingScore: 999999
 user.lastcoins = new Date * 1  
 }
 handler.help = ['minar2']
-handler.tags = ['loli']
+handler.tags = ['Black']
 handler.command = ['minar2', 'miming2', 'mine2', 'minarlolicoins', 'minarcoins', 'minarloli'] 
 handler.fail = null
 handler.exp = 0
