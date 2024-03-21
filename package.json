@@ -1,5 +1,5 @@
 {
-"name": "LoliBot-MD",
+"name": "Goku-Black-Bot-MD",
 "version": "1.5.7", 
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -17,13 +17,13 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/elrebelde21/LoliBot-MD",
+"homepage": "",
 "author": {
-"name": "elrebelde21" },
+"name": "Ivan" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/elrebelde21/LoliBot-MD.git" },
+"url": "" },
 
 "bugs": {
 "url": "https://github.com/elrebelde21/LoliBot-MD/issues" },
