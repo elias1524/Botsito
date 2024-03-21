@@ -75,7 +75,7 @@ global.moment = moment
 //------------------------[ Stickers ]-----------------------------
 
 global.packname = '𝙏𝙤𝙢𝙖 𝙩𝙪 𝙨𝙩𝙞𝙘𝙠𝙚𝙧'
-global.author = 'Goko-Black'
+global.author = 'Goku-Black'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
