@@ -23,7 +23,7 @@ conn.reply(m.chat,  `╭━━━[ Black𝐂𝐎𝐈𝐍𝐒 🪙 ]━━━⬣\
 }*/ 
 handler.help = ['addgb <@user>']
 handler.tags = ['gatacoins']
-handler.command = ['añadirlolicoins', 'añadirloli', 'añadircoins', 'dargatacoins', 'dargata', 'darcoins'] 
+handler.command = ['añadirBlackcoins', 'añadirloli', 'añadircoins', 'dargatacoins', 'dargata', 'darcoins'] 
 handler.group = true
 handler.rowner = true
 export default handler
