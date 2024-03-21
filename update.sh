@@ -2,7 +2,7 @@
   
 #!/data/data/com.termux/files/usr/bin/bash  
 BOT_DIR="Goku-Black-MD"  
-BOT_REPO="https://github.com/elrebelde21/$BOT_DIR" 
+BOT_REPO="Lo pondré enseguida " 
 DB_FILE="database.json"
   
 GREEN='\033[32m' 
