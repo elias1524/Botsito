@@ -179,7 +179,7 @@ throw `${lenguajeGB['smsAvisoFG']()}𝐍𝐨 𝐚𝐥𝐜𝐚𝐧𝐳𝐚 𝐩�
 }
 if (command == 'slot2') {
 let time = global.db.data.users[m.sender].lastslot + 60000
-if (new Date - users.lastslot < 60000) return m.reply(`*𝐕𝐮𝐞𝐥𝐯𝐚 𝐞𝐧:${msToTime(time - new Date())} 𝐏𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐚𝐩𝐨𝐬𝐭𝐚𝐧𝐝𝐨 𝐋𝐨𝐥𝐢𝐂𝐨𝐢𝐧𝐬* 🎰`) 
+if (new Date - users.lastslot < 60000) return m.reply(`*𝐕𝐮𝐞𝐥𝐯𝐚 𝐞𝐧:${msToTime(time - new Date())} 𝐏𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐚𝐩𝐨𝐬𝐭𝐚𝐧𝐝𝐨 Black𝐂𝐨𝐢𝐧𝐬* 🎰`) 
 users.lastslot = new Date * 1
     
 let emojis = ["🪙", "🔮", "🧿"];
@@ -212,7 +212,7 @@ users.money += apuesta
 end = `😯 *CASI!!, VUELVA A INTENTAR*\n*BONO DE +30 LoliCoins*`
 users.money += 30
 } else {
-end = `😿 *HA PERDIDO!! ❌ -${apuesta} LoliCoins*`
+end = `😿 *HA PERDIDO!! ❌ -${apuesta} BlackCoins*`
 users.money -= apuesta
 }
 
