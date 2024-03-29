@@ -63,7 +63,7 @@ conn.reply(m.chat, `\`「 𝙃𝘼 𝙋𝙀𝙍𝘿𝙄𝘿𝙊! 🤡 」\`\n\n�
 if (astro == 'tijera') {
 let money = global.db.data.users[m.sender].money += 1000
 conn.reply(m.chat, `\`「 𝙃𝘼 𝙂𝘼𝙉𝘼𝘿𝙊! 🎉 」\`\n\n👉 Tu: ${text}\n👉 El Bot : ${astro}\n🎁 Premios : ${money}`, m, {contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: name, body: wm, previewType: 0, thumbnail: img.getRandom(), sourceUrl: redes.getRandom()}}});
-//m.reply(`*╭━━━━[ 𝙃𝘼 𝙂𝘼𝙉𝘼𝘿𝙊! 🎉 ]━━━⬣*\n┃${name} 𝙐𝙨𝙩𝙚𝙙: ${text}\n┃🐱 𝙂𝙖𝙩𝙖𝘽𝙤𝙩: ${astro}\n┃💰 𝙋𝙧𝙚𝙢𝙞𝙤: ${[money0].getRandom()} 𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨\n┃💵 𝙎𝙪 𝘿𝙞𝙣𝙚𝙧𝙤: ${money} 𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨\n╰━━━━━━[ ${vs} ]━━━━━⬣`);
+//m.reply(`*╭━━━━[ 𝙃𝘼 𝙂𝘼𝙉𝘼𝘿𝙊! 🎉 ]━━━⬣*\n┃${name} 𝙐𝙨𝙩𝙚𝙙: ${text}\n┃🐱Black𝘽𝙤𝙩: ${astro}\n┃💰 𝙋𝙧𝙚𝙢𝙞𝙤: ${[money0].getRandom()} Black𝘾𝙤𝙞𝙣𝙨\n┃💵 𝙎𝙪 𝘿𝙞𝙣𝙚𝙧𝙤: ${money} Black𝘾𝙤𝙞𝙣𝙨\n╰━━━━━━[ ${vs} ]━━━━━⬣`);
 } else {
 let money = global.db.data.users[m.sender].money -= 300
 conn.reply(m.chat, `\`「 𝙃𝘼 𝙋𝙀𝙍𝘿𝙄𝘿𝙊! 🤡 」\`\n\n👉 Tu: ${text}\n👉 El Bot : ${astro}\n🎁 Premios : ${money}`, m, {contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: name, body: wm, previewType: 0, thumbnail: img.getRandom(), sourceUrl: redes.getRandom()}}})}}
@@ -206,7 +206,7 @@ if (c == emojis.length) c = 0;
 }
 let end;
 if (a == b && b == c) {
-end = `🥳 *QUE PRO!! HAS GANADO +${apuesta + apuesta} LoliCoins*`
+end = `🥳 *QUE PRO!! HAS GANADO +${apuesta + apuesta} BlackCoins*`
 users.money += apuesta
 } else if (a == b || a == c || b == c) {
 end = `😯 *CASI!!, VUELVA A INTENTAR*\n*BONO DE +30 LoliCoins*`
