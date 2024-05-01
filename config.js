@@ -87,16 +87,16 @@ global.md = 'https://github.com/elrebelde21/LoliBot-MD'
 global.fb = 'https://www.facebook.com/elrebelde21'
 global.face = 'https://www.facebook.com/groups/872989990425789/'
 
-global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Update
-global.nn = 'https://chat.whatsapp.com/C6sxsP2ckrr2vxMKclOeCD' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/H4hxytyGvucIF1k0UAR7es' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/IlyJBy1fxcw2qAHLSC5YLa' //Grupo del Colaboracion
-global.nnnt2 = 'https://chat.whatsapp.com/K7RzcVdxGqhGP5dCpVENSI' // Grupo COL 2
-global.nnntt = 'https://chat.whatsapp.com/IB9Vs7mZ03BBkH3reCU8Dw' //Grupo COL 3
-global.nnnttt = 'https://chat.whatsapp.com/KlqNmoUcVnsGJxIfATIDrK' //enlace lolibot
-global.nnntttt = 'https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs' //Grupo ayuda sobre el bot
-global.bot = 'Wa.me/595993475696'
-global.asistencia = 'wa.me/5492266466080'
+global.nna = 'https://whatsapp.com/channel/0029VaYh3Zm4dTnQKQ3VLT0h' //Update
+global.nn = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //Grupo Goku-Black-Bot-MD 
+global.nnnt2 = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //Grupo de Goku-Black-Bot-MD 
+global.nnntt = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK'
+global.nnnttt = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //enlace Goku-Black-MD 
+global.nnntttt = 'https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK' //Grupo ayuda sobre el bot
+global.bot = 'Wa.me/595972157130'
+global.asistencia = 'wa.me/595992809980'
 global.redes = [nna, yt, nn, md, tiktok, fb, nnn, face]
 
 //-------------------------[ IMAGEN ]------------------------------
@@ -124,7 +124,7 @@ global.ag = '『⚠️ 𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 ⚠️』\n\
 global.advertencia = ag
 global.iig = '『❕ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 』\n\n'
 global.informacion = iig
-global.fg = '『❌ 𝙀𝙍𝙍𝙊𝙍 ❌』\n\n'
+global.fg = '『❌ No funciona :( ❌』\n\n'
 global.fallo = fg
 global.mg = '『❗️ 𝙇𝙊 𝙐𝙎𝙊 𝙈𝘼𝙇❗』\n\n'
 global.mal = mg
