@@ -50,7 +50,7 @@ let old = performance.now()
 
 let info = `           \`『ＩＮＦＯ ＤＥＬ ＢＯＴ 』\`
 
-> 🤴🏻 *CREADOR:* elrebelde
+> 🤴🏻 *CREADOR:* Ivan
 > #️⃣ *CONTACTO:* ${asistencia}
 > ✅ *VERSION ACTUAL:* ${vs}
 > 🎳 *PREFIJO:* *${usedPrefix}*
