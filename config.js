@@ -10,8 +10,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [
-  ['595992809980', 'ɪᴠᴀɴ ᴏғᴄ', true],
+global.owner = [['595992809980', 'ɪᴠᴀɴ ᴏғᴄ', true],
   ['50558124470', 'ᴇɴᴅᴇʀ ᴏғᴄ', true],
   ['593939005387', 'ᴊᴏsᴛɪɴ ᴏғᴄ', true],
   ['51939469940', 'ᴊᴏsᴇ ᴍᴏᴅs', true],
