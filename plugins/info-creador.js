@@ -1,23 +1,25 @@
-var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let pp = gataImg.getRandom()	
-const cat = `
-╭ ❖ ── ✦ ── ✦ ── ❖ ──╗
-│
-│ ✥𝗜𝗩𝗔𝗡 𝗠𝗢𝗗𝗭✥ 
-│ *Wa.me/595972,157130*
-│  
-│*GRUPO OFICIAL DE GOKU BLACK MD*
-│*https://chat.whatsapp.com/GkajTNHTklT7RJ1bzsJYNK*
-│
-│ANGEL-OFC - ASISTENCIA
-│*${asistencia}*
-╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝`
+import fetch from 'node-fetch'
 
-await conn.sendFile(m.chat, pp, 'gata.mp4', cat, fkontak)
+var handler = async (m, { conn, usedPrefix, text, args, command }) => {
+
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who).catch(_ => '')
+let name = await conn.getName(who)
+let biografia = await conn.fetchStatus('5217294888993' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let biografiaBot = await conn.fetchStatus('5214531287294' +'@s.whatsapp.net').catch(_ => 'Sin Biografía')
+let bio = biografia.status?.toString() || 'Sin Biografía'
+let biobot = biografiaBot.status?.toString() || 'Sin Biografía'
+
+await conn.sendContactArray(m.chat, [
+[devnum, `${await conn.getName('5214434703586'+'@s.whatsapp.net')}`, `🍭 Creador`, dev, email, `🇲🇽 México`, `https://www.youtube.com/@Azami_YT`, bio],
+[`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🍧 CuriosityBot-MD`, `📵 No Hacer Spam`, email, `🇲🇽 México`, `https://github.com/AzamiJs/CuriosityBot-MD`, biobot]
+], m)
+  
 }
-handler.help = ['owner', 'creator']
+handler.help = ['owner', 'contacto', 'creador', 'contactos']
 handler.tags = ['info']
-handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
+handler.command = /^(owner|contacto|creador|contactos)/i
+
+handler.register = true
 
 export default handler
