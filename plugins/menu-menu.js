@@ -526,7 +526,7 @@ ${readMore}
 > 👑 _${usedPrefix}delcmd_
 🅀🅄🄴    🄳🄸🅂🄵🅁🅄🅃🄴🅂    🄳🄴 ༜ཱུᝳᥬ𝐆҈҉𝐎⃞𝐊𝐔᭄𝐁⃞𝐋𝐀᭰᭫᳸𝐂𝐊᭄᭰𝐁⃞𝐎𝐓҉҈ᬼ༜ཱུ`.trim()
 await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })
-await conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝐛𝐲: 𝐞𝐥𝐫𝐞𝐛𝐞𝐥𝐝𝐞𝟐𝟏', previewType: 0, thumbnail: imagen3, sourceUrl: [md, yt, tiktok].getRandom()}}})
+await conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: wm, body: '𝐛𝐲: Ivan', previewType: 0, thumbnail: imagen3, sourceUrl: [md, yt, tiktok].getRandom()}}})
 	  
 } catch (e) {
 //await conn.sendButton(m.chat, `\n${wm}`, lenguajeGB['smsMalError3']() + '#report ' + usedPrefix + command, null, [[lenguajeGB.smsMensError1(), `#reporte ${lenguajeGB['smsMensError2']()} *${usedPrefix + command}*`]], m)
