@@ -12,12 +12,12 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 global.owner = [['595992809980', 'Ivan👑', true]]
  
-global.mods = ['50495745934']
-global.prems = ['972529277314'],
+global.mods = ['595992809980']
+global.prems = ['595992809980'],
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = "" //Ejemplo: +59309090909
+global.botNumberCode = "" //Ejemplo: +595992809980
 global.confirmCode = "" 
 
 //---------[ IDIOMA : LENGUAJE ]---------
