@@ -3,7 +3,7 @@ let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
   let user = db.data.users[m.sender]
 let str = `¿ʜᴏʟᴀ ᴄᴏᴍᴏ ᴇsᴛᴀs? 
- ᴀɢʀᴀᴅᴇᴢᴄᴏ ǫᴜᴇ ᴍᴇ ǫᴜɪᴇʀᴀs ᴅᴏɴᴀʀ ᴘᴜᴇᴅᴇs ᴀᴘᴏʏᴀʀ ᴇsᴛᴇ ᴘʀᴏʏᴇᴄᴛᴏ ɢᴏᴋᴜ-ʙʟᴀᴄᴋ-ʙᴏᴛ-ᴍᴅ ᴅᴏɴᴀɴᴅᴏ ɴᴜᴍᴇʀᴏs ᴘᴀʀᴀ ᴇᴊᴇᴄᴜᴛᴀʀ ᴇʟ ʙᴏᴛ, ᴘᴜᴇᴅᴇs ᴅᴏɴᴀʀʟᴏ ᴀʟ ᴄᴏɴᴛᴀᴄᴛᴀʀ ᴄᴏɴ:wa.me/595972157130`
+ ᴀɢʀᴀᴅᴇᴢᴄᴏ ǫᴜᴇ ᴍᴇ ǫᴜɪᴇʀᴀs ᴅᴏɴᴀʀ ᴘᴜᴇᴅᴇs ᴀᴘᴏʏᴀʀ ᴇsᴛᴇ ᴘʀᴏʏᴇᴄᴛᴏ ɢᴏᴋᴜ-ʙʟᴀᴄᴋ-ʙᴏᴛ-ᴍᴅ ᴅᴏɴᴀɴᴅᴏ ɴᴜᴍᴇʀᴏs ᴘᴀʀᴀ ᴇᴊᴇᴄᴜᴛᴀʀ ᴇʟ ʙᴏᴛ, ᴘᴜᴇᴅᴇs ᴅᴏɴᴀʀʟᴏ ᴀʟ ᴄᴏɴᴛᴀᴄᴛᴀʀ ᴄᴏɴ:wa.me/595992809980`
 await conn.sendMessage(m.chat, { 
 text: str, 
 contextInfo:{
