@@ -4,6 +4,8 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
     await conn.sendMessage(m.chat, { react: { text: '📇', key: m.key } })
 let str = `ᴛᴇ ɪɴᴠɪᴛᴏ ᴀ ᴜɴɪʀᴛᴇ ᴀ ʟᴀ ғᴀᴍɪʟɪᴀ ᴅᴇ  ɢᴏᴋᴜ-ʙʟᴀᴄᴋ
 𝐆𝐑𝐔𝐏𝐎 𝐋𝐈𝐍𝐊 🌸 https://chat.whatsapp.com/Igsky5kNI7cDMsBJU6gcKB
+*Canal oficial*
+https://whatsapp.com/channel/0029VaYh3Zm4dTnQKQ3VLT0h
 *_╰━━━━━━━━━━━━━━━━⊜_*`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
