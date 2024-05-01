@@ -48,22 +48,22 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/diegojadibot/SakuraBotLite-MD` },
+    document: { url: `https://github.com/elias1524/Goku-Black-MD` },
     mimetype: `application/${document}`,
-    fileName: `Sakura Bot Lite 🌸`,
+    fileName: `Goku-Black-Bot-MD`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/diegojadibot/SakuraBotLite-MD",
+        mediaUrl: "https://github.com/elias1524/Goku-Black-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "Tᴜ Mᴇᴊᴏʀ Bᴏᴛ!",
         body: wm,
         thumbnail: imagen6,
-        sourceUrl: "https://atom.bio/sakuralite",
+        sourceUrl: "https://atom.bio/baileybotmd",
       },
     },
     caption: info,
