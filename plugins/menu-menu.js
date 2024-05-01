@@ -77,7 +77,7 @@ let menu = `『🄶🄾🄺🅄-🄱🄻🄰🄲🄺-🄱🄾🅃-🄼🄳』
 
 *Hola ${taguser}*
 
-\`□ Creador:iván`
+\ □ Creador:iván
 \`□ Numero del creador:\` 
 > Wa.me/+595992809980
 \`□ Numero del bot ofc:\` 
