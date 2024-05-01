@@ -10,7 +10,7 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['595992809980', '👑Ivan👑', true]]
+global.owner = [['595992809980', '👑Ivan👑', true],['573012482597'], 'DIEGO OFC', true]]
  
 global.mods = ['595992809980']
 global.prems = ['595992809980'],
