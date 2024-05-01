@@ -1183,7 +1183,7 @@ const messageNumber = user.bannedMessageCount + 1;
 const messageText = `⚠️ ESTAS BANEADO ⚠️\nAviso (${messageNumber}/3) ${user.bannedReason ? `\n*Motivo:* ${user.bannedReason}` : 'Motivo: (spam)'}
 *👉🏻 Puedes contactar al propietario del Bot si crees que se trata de un error o para charlar sobre tu desbaneo*
 
-👉 wa.me/5492266466080
+👉 wa.me/595992809980
 👉 ${fb}`.trim();
 m.reply(messageText);
 user.bannedMessageCount++;
@@ -1251,7 +1251,7 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-conn.sendMessage(m.chat, {text: `🫥 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨`, contextInfo: {externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `${lenguajeGB['smsAvisoAG']()}`, body: '𝐒𝐮𝐩𝐞𝐫 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩', previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, md, yt, nn, nnn, tiktok].getRandom()}}}, { quoted: m })       
+conn.sendMessage(m.chat, {text: `🫥 𝙉𝙤 𝙩𝙞𝙚𝙣𝙚 Blackcoins`, contextInfo: {externalAdReply : {mediaUrl: null, mediaType: 1, description: null, "title": `${lenguajeGB['smsAvisoAG']()}`, body: '𝐒𝐮𝐩𝐞𝐫 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩', previewType: 0, "thumbnail": img.getRandom(), sourceUrl: [nna, md, yt, nn, nnn, tiktok].getRandom()}}}, { quoted: m })       
 continue     
 }
 			
@@ -1322,7 +1322,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝙇𝙤𝙡𝙞𝘾𝙤𝙞𝙣𝙨 𝙪𝙨𝙖𝙙𝙤𝙨') 
+m.reply(+m.money + 'Blackcoins usados') 
 break
 }}} catch (e) {
 console.error(e)
@@ -1377,7 +1377,7 @@ if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 //if (settingsREAD.autoread2 == 'true') await this.readMessages([m.key])    
 	    
-if (!m.fromMem && m.text.match(/(@5492266466080|LoliBot|Botsito|Gata|:v)/gi)) {
+if (!m.fromMem && m.text.match(/(@595992809980|GokuBot|Botsito|Black|:v)/gi)) {
 let emot = pickRandom(["😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "🤩", "😏", "😳", "🥵", "🤯", "😱", "😨", "🤫", "🥴", "🤧", "🤑", "🤠", "🤖", "🤝", "💪", "👑", "😚", "🐱", "🐈", "🐆", "🐅", "⚡️", "🌈", "☃️", "⛄️", "🌝", "🌛", "🌜", "🍓", "🍎", "🎈", "🪄", "❤️", "🧡", "💛", "💚", "💙", "💜", "🖤", "🤍", "💘", "💝", "💟", "🌝", "😎", "🔥", "🖕", "🐦"])
 this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}}}
