@@ -101,10 +101,7 @@ _- NO use el comando de SPAM repetidamente, ya que Provocará un Mal funcionamie
 
 _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de Goku-Black-Bot-MD._
 
-\`ESTE ES EL REPOSITORIO OFICIAL\`
-> *${md}*
-
-\`CANAL UPDATE ACTUALIZACIONES Y NOVEDADES SOBRE EL BOT*\`
+\`CANAL OFICIAL ACTUALIZACIONES Y NOVEDADES SOBRE EL BOT*\`
 > *infomarte sobre la nueva actualizaciónes y novedades de bot aqui*
 > ${nna}
 
