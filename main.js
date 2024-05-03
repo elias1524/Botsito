@@ -155,12 +155,22 @@ console.log(chalk.bold.redBright(`NO SE PERMITE NÚMEROS QUE NO SEAN ${chalk.bol
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
   
+const filterStrings = ["Q2xvc2luZyBzdGFsZSBvcGVu", // "Closing stable open"
+"Q2xvc2luZyBvcGVuIHNlc3Npb24=", // "Closing open session"
+"RmFpbGVkIHRvIGRlY3J5cHQ=", // "Failed to decrypt"
+"U2Vzc2lvbiBlcnJvcg==", // "Session error"
+"RXJyb3I6IEJhZCBNQUM=", // "Error: Bad MAC" 
+"RGVjcnlwdGVkIG1lc3NhZ2U=" // "Decrypted message" 
+]
+
 console.info = () => {} 
+console.debug = () => {} 
+['log', 'warn', 'error'].forEach(methodName => redefineConsoleMethod(methodName, filterStrings))
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['Goku-Black-Bot-MD', 'Edge', '2.0.0'] : methodCodeQR ? ['Goku-Black-Bot-MD', 'Edge', '2.0.0'] : ['Ubuntu', 'Edge', '110.0.1587.56'],
+browser: opcion == '1' ? ['LoliBot-MD', 'Edge', '1.0.0'] : methodCodeQR ? ['LoliBot-MD', 'Edge', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -171,10 +181,10 @@ syncFullHistory: true,
 getMessage: async (clave) => {
 let jid = jidNormalizedUser(clave.remoteJid)
 let msg = await store.loadMessage(jid, clave.id)
-return (msg?.message || "").replace(/(?:Closing stale open|Closing open session)/g, "")
+return msg?.message || ""
 },
-msgRetryCounterCache, //Resolver mensajes en espera
-msgRetryCounterMap, //
+msgRetryCounterCache, // Resolver mensajes en espera
+msgRetryCounterMap, 
 defaultQueryTimeoutMs: undefined,
 version,  
 }
@@ -442,6 +452,16 @@ console.log(chalk.bold.red(`${lenguajeGB.smspurgeOldFiles3()} ${file} ${lenguaje
 console.log(chalk.bold.green(`${lenguajeGB.smspurgeOldFiles1()} ${file} ${lenguajeGB.smspurgeOldFiles2()}`))
 }})}})})})}
 
+function redefineConsoleMethod(methodName, filterStrings) {
+const originalConsoleMethod = console[methodName]
+console[methodName] = function() {
+const message = arguments[0]
+if (typeof message === 'string' && filterStrings.some(filterString => message.includes(atob(filterString)))) {
+arguments[0] = ""
+}
+originalConsoleMethod.apply(console, arguments)
+}}
+
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await clearTmp()
@@ -459,13 +479,4 @@ console.log(chalk.bold.cyanBright(lenguajeGB.smsClearTmp()))}, 1000 * 60 * 3) //
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
-console.log(chalk.bold.cyanBright(lenguajeGB.smspurgeOldFiles()))}, 1000 * 60 * 10)
-
-_quickTest().then(() => conn.logger.info(chalk.bold(lenguajeGB['smsCargando']().trim()))).catch(console.error)
-
-let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-unwatchFile(file)
-console.log(chalk.bold.greenBright(lenguajeGB['smsMainBot']().trim()))
-import(`${file}?update=${Date.now()}`)
-})
+console.log(chalk.bol
